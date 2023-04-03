@@ -1,0 +1,92 @@
+﻿[
+  {
+    "name": "apitest01",
+    "result": "passed",
+    "script": "./apitest01.spec.ts"
+  },
+  {
+    "name": "uitest01",
+    "result": "failed",
+    "script": "./uitest01.spec.ts"
+  },
+  {
+    "name": "endtoendtest.spec.ts",
+    "result": "passed",
+    "script": "./endtoendtest.spec.ts"
+  },
+  {
+    "name": "apitest01",
+    "result": "passed",
+    "script": "./apitest01.spec.ts"
+  },
+  {
+    "name": "uitest01",
+    "result": "failed",
+    "script": "./uitest01.spec.ts"
+  },
+  {
+    "name": "endtoendtest.spec.ts",
+    "result": "passed",
+    "script": "./endtoendtest.spec.ts"
+  },
+  {
+    "name": "apitest01",
+    "result": "passed",
+    "script": "./apitest01.spec.ts"
+  },
+  {
+    "name": "uitest01",
+    "result": "failed",
+    "script": "./uitest01.spec.ts"
+  },
+  {
+    "name": "endtoendtest.spec.ts",
+    "result": "passed",
+    "script": "./endtoendtest.spec.ts"
+  },
+  {
+    "name": "apitest01",
+    "result": "passed",
+    "script": "./apitest01.spec.ts"
+  },
+  {
+    "name": "uitest01",
+    "result": "failed",
+    "script": "./uitest01.spec.ts"
+  },
+  {
+    "name": "endtoendtest.spec.ts",
+    "result": "passed",
+    "script": "./endtoendtest.spec.ts"
+  },
+  {
+    "name": "apitest01",
+    "result": "passed",
+    "script": "./apitest01.spec.ts"
+  },
+  {
+    "name": "uitest01",
+    "result": "failed",
+    "script": "./uitest01.spec.ts"
+  },
+  {
+    "name": "endtoendtest.spec.ts",
+    "result": "passed",
+    "script": "./endtoendtest.spec.ts"
+  },
+  {
+    "name": "apitest01",
+    "result": "passed",
+    "script": "./apitest01.spec.ts"
+  },
+  {
+    "name": "uitest01",
+    "result": "failed",
+    "script": "./uitest01.spec.ts"
+  },
+  {
+    "name": "endtoendtest.spec.ts",
+    "result": "passed",
+    "script": "./endtoendtest.spec.ts"
+  }
+]

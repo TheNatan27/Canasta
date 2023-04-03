@@ -1,0 +1,31 @@
+﻿@model CanastaWebsite.Core.Classes.ResultGallery
+
+<header>
+    <div class="table-header">
+        <h3>Test Results</h3>
+    </div>
+</header>
+
+
+<div class="container">
+    <div>
+        Test run id: @Model.RunSummaryID
+        Date: @Model.Date
+        Name: @Model.Name
+    </div>
+    <div class="gallery-table">
+        <div class="column-names">
+            <div>Test Name</div>
+            <div>Result</div>
+            <div>Script</div>
+        </div>
+        @foreach (var result in Model.Results)
+        {
+            <div class="row-line">
+                <div class="row-child">@result.Name</div>
+                <div class="row-child">@result.Result</div>
+                <div class="row-child">@result.Script</div>
+            </div>
+        }
+    </div>
+</div>

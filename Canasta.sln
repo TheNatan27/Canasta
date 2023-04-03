@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0069B7FD-8125-4F7C-8A4B-60AB250ACDC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canasta.Web", "src\Canasta.Web\Canasta.Web.csproj", "{4D37D6CF-5C21-41AA-A62C-15A4526AA7A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{8B9B64A6-8EA6-4ED6-88A6-68606EB4E135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanastaWebsite.Core", "src\Modules\CanastaWebsite.Core\CanastaWebsite.Core.csproj", "{8DBDBCB1-085D-4306-A40B-42BAB74E9130}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themes", "Themes", "{A671EF6C-5CE1-4F6B-9209-3EDE1DFC9C94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canasta.Theme", "src\Themes\Canasta.Theme\Canasta.Theme.csproj", "{15B006CD-52E1-4D5D-AD65-93BDD64A381B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D37D6CF-5C21-41AA-A62C-15A4526AA7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D37D6CF-5C21-41AA-A62C-15A4526AA7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D37D6CF-5C21-41AA-A62C-15A4526AA7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D37D6CF-5C21-41AA-A62C-15A4526AA7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBDBCB1-085D-4306-A40B-42BAB74E9130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBDBCB1-085D-4306-A40B-42BAB74E9130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBDBCB1-085D-4306-A40B-42BAB74E9130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBDBCB1-085D-4306-A40B-42BAB74E9130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B006CD-52E1-4D5D-AD65-93BDD64A381B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B006CD-52E1-4D5D-AD65-93BDD64A381B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B006CD-52E1-4D5D-AD65-93BDD64A381B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B006CD-52E1-4D5D-AD65-93BDD64A381B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D37D6CF-5C21-41AA-A62C-15A4526AA7A1} = {0069B7FD-8125-4F7C-8A4B-60AB250ACDC9}
+		{8B9B64A6-8EA6-4ED6-88A6-68606EB4E135} = {0069B7FD-8125-4F7C-8A4B-60AB250ACDC9}
+		{8DBDBCB1-085D-4306-A40B-42BAB74E9130} = {8B9B64A6-8EA6-4ED6-88A6-68606EB4E135}
+		{A671EF6C-5CE1-4F6B-9209-3EDE1DFC9C94} = {0069B7FD-8125-4F7C-8A4B-60AB250ACDC9}
+		{15B006CD-52E1-4D5D-AD65-93BDD64A381B} = {A671EF6C-5CE1-4F6B-9209-3EDE1DFC9C94}
+	EndGlobalSection
+EndGlobal

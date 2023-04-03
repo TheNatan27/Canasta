@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ Culture.Name }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ "PageTitle" | shape_new | shape_stringify }}</title>
+    <base href="/">
+    <link rel="stylesheet" href="../styles/site.css">
+
+    {% resources type: "Meta" %}
+    <!-- Font Awesome icons (free version)-->
+    {% style name: "font-awesome", version: "6" %}
+      {% resources type: "HeadLink" %}
+      {% resources type: "Stylesheet" %}
+      {% resources type: "HeadScript" %}
+      {% render_section "HeadMeta", required: false %}
+    </head>
+    <body dir="{{ Culture.Dir }}">
+        <div class="header-section"></div>
+        <div class="background">
+            <div class="background-image">
+                <div class="content">
+                {% render_section "Content" %}
+                </div>
+            </div>
+        </div>
+      </body>
+    </body>
+  </head>
+</html>
